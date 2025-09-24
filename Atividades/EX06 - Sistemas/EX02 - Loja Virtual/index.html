@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Produtos</a></li>
+            <li class="dropdown"><a href="">Contato</a></li>
+                <ul class="dropdown-menu">
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">SAQ</a></li>
+                </ul>
+        </ul>
+    </nav>
+    
+    <h1>Catálogo de Produtos</h1>
+
+    <!-- Aba Lateral -->
+
+    <aside id="carrinho-lateral" aria-label="Carrinho de compras">
+        <h2>Seu Carrinho</h2>
+        <div id="itens-carrinho"></div>
+        <div id="total-carrinho">Total: R$ 0,00</div>
+        <button id="btn-finalizar">Finalizar Compra</button>
+    </aside>
+
+    <div class="carrossel-containe">
+        <div class="carrossel">
+            <img src="img/banner1.jpg" alt="Banner">
+            <img src="img/banner2.jpg" alt="Banner">
+            <img src="img/banner3.jpg" alt="Banner">
+        </div>
+        <button class="seta seta-anterior">&#10094;</button>
+        <button class="seta seta-proximo">&#10095;</button>
+    </div>
+
+    <div class="produtos-container">
+
+        <div class="produtos">
+            <!-- Produto 1 -->
+            <div class="imagem-produto"><img src="/img/violino.png" alt="Violino"></div>
+            <div clss="descricao"> Violino</div>
+            <div class="preco"> R$ 780,90</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 2 -->
+            <div class="imagem-produto"><img src="/img/viola-arco.png" alt="Viola"></div>
+            <div clss="descricao">Viola</div>
+            <div class="preco">R$ 790,90</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 3 -->
+            <div class="imagem-produto"><img src="/img/cello.png" alt="Violoncelo"></div>
+            <div clss="descricao"> Vioncelo </div>
+            <div class="preco">R$ 3500, 00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 4 -->
+            <div class="imagem-produto"><img src="/img/flauta-transversal.png" alt="Flauta Transversal"></div>
+            <div clss="descricao"> Flauta Transversal </div>
+            <div class="preco">R$ 2000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 5 -->
+            <div class="imagem-produto"><img src="/img/clarinete.png" alt="Clarinete"></div>
+            <div clss="descricao"> Clarinete </div>
+            <div class="preco">R$ 800,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 6 -->
+            <div class="imagem-produto"><img src="/img/corne-ingles.png" alt="Corne-Inglês"></div>
+            <div clss="descricao"> Corne-Inglês </div>
+            <div class="preco">R$ 11000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 7 -->
+            <div class="imagem-produto"><img src="/img/fagote.png" alt="Fagote"></div>
+            <div clss="descricao"> Fagote </div>
+            <div class="preco">R$ 15900,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 8 -->
+            <div class="imagem-produto"><img src="/img/sax-alto.png" alt="Sax"></div>
+            <div clss="descricao"> Sax Alto</div>
+            <div class="preco">R$ 7000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 9 -->
+            <div class="imagem-produto"><img src="/img/trompete.png" alt="Trompete"></div>
+            <div clss="descricao"> Trompete </div>
+            <div class="preco">R$ 2000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 10 -->
+            <div class="imagem-produto"><img src="/img/trombonito.png" alt="Trombonito"></div>
+            <div clss="descricao"> Trombonito</div>
+            <div class="preco">R$ 5000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 11 -->
+            <div class="imagem-produto"><img src="/img/tuba.png" alt="Tuba"></div>
+            <div clss="descricao"> Tuba</div>
+            <div class="preco">R$ 25000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produtos">
+            <!-- Produto 12 -->
+            <div class="imagem-produto"><img src="/img/sonsafone.png" alt="Sansafone"></div>
+            <div clss="descricao"> Sonsafone</div>
+            <div class="preco">R$ 47000,00</div>
+            <button class="botao-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <button id="btn-carrinho" aria-label="Abrir Carrinho">
+        🛒
+        <span id="contador-quantidade">0</span>
+    </button>
+    
+</body>
+</html>
